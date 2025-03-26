@@ -4,7 +4,7 @@ let points = document.getElementById("point");
 let point = 0;
 
 let time = Math.floor(Math.random() * 16) + 5;
-
+console.log(time);
 btn.addEventListener("click", () => {
   let int = setInterval(() => {
     point++;
